@@ -1,0 +1,846 @@
+{
+  "categoricals": {
+    "Branch": {
+      "CSE": 914,
+      "IT": 868,
+      "EE": 708,
+      "CE": 706,
+      "ME": 702,
+      "EC": 699,
+      "EI": 625,
+      "IPE": 606,
+      "B.PHARMACY": 410,
+      "BME": 368,
+      "BEIL": 24,
+      "CSE_FW": 18,
+      "IT_FW": 18,
+      "EE_FW": 15,
+      "EI_FW": 15,
+      "EC_FW": 14,
+      "ME_FW": 14,
+      "CE_FW": 13,
+      "IPE_FW": 13,
+      "BME_FW": 8,
+      "CE-RR": 1,
+      "EE-RR": 1
+    },
+    "Eligible Category": {
+      "UR": 2871,
+      "ST": 1428,
+      "OBC": 1373,
+      "SC": 1088
+    },
+    "Alloted Category": {
+      "URXOP": 1971,
+      "SCXOP": 920,
+      "OBCXOP": 757,
+      "STXOP": 737,
+      "URXF": 675,
+      "EWS": 578,
+      "SCXF": 231,
+      "AIUR": 217,
+      "OBCXF": 209,
+      "STXF": 207,
+      "URSOP": 57,
+      "URSF": 34,
+      "URFFOP": 20,
+      "URNCCOP": 16,
+      "OBCSOP": 16,
+      "UR": 16,
+      "URHOP": 12,
+      "OBCSF": 12,
+      "URNCCF": 10,
+      "SCSOP": 8,
+      "GULF": 7,
+      "OBCHOP": 7,
+      "OBCNCCOP": 6,
+      "URFFF": 6,
+      "JKR": 5,
+      "SCHOP": 5,
+      "JKM": 3,
+      "URXOP-FW": 2,
+      "SCNCCOP": 2,
+      "ST": 2,
+      "OBCHF": 2,
+      "OBCFFOP": 1,
+      "SCFFOP": 1,
+      "OBCFOP": 1,
+      "STFOP": 1,
+      "URXOP/OBCXOP": 1,
+      "OBCHCOP": 1,
+      "URFOP": 1,
+      "ST-BT": 1,
+      "OBC": 1,
+      "SC": 1
+    },
+    "Domicile": {
+      "Y": 6564,
+      "N": 196
+    },
+    "Gender": {
+      "M": 4971,
+      "F": 1789
+    },
+    "EWS": {
+      "N": 5747,
+      "Y": 1013
+    },
+    "Status": {
+      "ADMITTED": 6646,
+      "Admitted": 114
+    },
+    "Round": {
+      "(null)": 5579,
+      "(FIRST ROUND UPGRADE)": 519,
+      "(FIRST ROUND)": 264,
+      "(CLC ROUND)": 233,
+      "(SECOND ROUND)": 133,
+      "(CSAB ROUND)": 26,
+      "(NRI ROUND)": 4,
+      "(GULF ROUND)": 2
+    },
+    "Payment Mode": {
+      "(null)": 3045,
+      "ONLINE": 1948,
+      "CASH/CARD/UPI/DD": 792,
+      "CASH": 670,
+      "UPI": 85,
+      "CARD": 56,
+      "CASH/CARD/DD/UPI": 20,
+      "CASH+BANK": 18,
+      "CASH/UPI": 15,
+      "ONLINE/CARD": 15,
+      "CASH+UPI": 14,
+      "UPI/CASH": 13,
+      "DIMAND DRAFT": 10,
+      "CASH+ ONLINE": 7,
+      "CARD/ONLINE": 6,
+      "NEFT": 4,
+      "CASH + ONLINE": 4,
+      "CARD/UPI": 3,
+      "CASH/ONLINE": 3,
+      "DD": 2,
+      "CASH+ONLINE": 2,
+      "UPI+POS": 2,
+      "UPI / UPI": 2,
+      "DIMAND DRAFT (DD)": 2,
+      "ONLINE/DIMAND DRAFT": 2,
+      "ONLINE/ CARD": 2,
+      "CASH/ CARD \\/DD/UPI": 1,
+      "CASH / UPI": 1,
+      "CASH/ CARD/DD/UPI": 1,
+      "UPI/CARD": 1,
+      "CARD / CASH": 1,
+      "CARD + UPI": 1,
+      "CASH + UPI": 1,
+      "Online": 1,
+      "CASH +BANK": 1,
+      "ONLINE + CASH": 1,
+      "CASH/CARD": 1,
+      "DD/ONLINE": 1,
+      "DIMAND  DRAFT": 1,
+      "ONLINE, DIMAND DRAFT": 1,
+      "DIMAND DRAFT, ONLINE": 1,
+      "ONLINE/CASH": 1,
+      "ONLINE/DD": 1,
+      "DIMAND DFAFT": 1
+    },
+    "Religion": {
+      "HINDU": 6393,
+      "JAIN": 193,
+      "MUSLIM": 130,
+      "CHRISTIAN": 19,
+      "BUDHA": 13,
+      "SIKH": 12
+    },
+    "Admission Year": {
+      "2024-25": 1266,
+      "2023-24": 1260,
+      "2025-26": 1189,
+      "2022-23": 1148,
+      "2020-21": 959,
+      "2021-22": 938
+    },
+    "Remarks": {
+      "(null)": 6326,
+      "LATERAL ENTRY": 367,
+      "GULF": 31,
+      "NOM. NAGALAND": 7,
+      "JKR": 6,
+      "NOM. OF NEPAL": 6,
+      "NOM. TRIPURA": 4,
+      "NRI": 4,
+      "OCI": 4,
+      "JKM": 3,
+      "BRAVERY": 1,
+      "FOREIGN NATION": 1
+    },
+    "fee stru": {
+      "2023 BTECH/BPH": 972,
+      "2024 BTECH/BPH": 971,
+      "2022 BTECH/BPH": 965,
+      "2025 BTECH/BPH": 922,
+      "2020 BTECH/BPH": 780,
+      "2021 BTECH/BPH": 762,
+      "2024 BTECH SF&GF": 253,
+      "2023 BTECH SF&GF": 247,
+      "2025 BTECH SF&GF": 222,
+      "2022 BTECH SF&GF": 183,
+      "2020 BTECH SF&GF": 179,
+      "2021 BTECH SF&GF": 176,
+      "2025 BTECH/BPH FW": 45,
+      "2024 BTECH/BPH FW": 42,
+      "2023 BTECH/BPH FW": 41
+    },
+    "Ofline Admission Category": {
+      "(null)": 6760
+    }
+  },
+  "fill": {
+    "Sr. No.": {
+      "nonempty": 6760,
+      "unique": 6760
+    },
+    "Unique ID": {
+      "nonempty": 3673,
+      "unique": 3669
+    },
+    "Class Roll No.": {
+      "nonempty": 6760,
+      "unique": 5941
+    },
+    "Enrolment No.": {
+      "nonempty": 6760,
+      "unique": 6760
+    },
+    "Branch": {
+      "nonempty": 6760,
+      "unique": 22
+    },
+    "Rank": {
+      "nonempty": 6649,
+      "unique": 6176
+    },
+    "Marks": {
+      "nonempty": 6646,
+      "unique": 4919
+    },
+    "Roll No": {
+      "nonempty": 6754,
+      "unique": 6746
+    },
+    "Name": {
+      "nonempty": 6760,
+      "unique": 6429
+    },
+    "Father": {
+      "nonempty": 6759,
+      "unique": 6146
+    },
+    "Mother": {
+      "nonempty": 6758,
+      "unique": 5832
+    },
+    "Eligible Category": {
+      "nonempty": 6760,
+      "unique": 4
+    },
+    "Alloted Category": {
+      "nonempty": 6760,
+      "unique": 42
+    },
+    "Domicile": {
+      "nonempty": 6760,
+      "unique": 2
+    },
+    "Gender": {
+      "nonempty": 6760,
+      "unique": 2
+    },
+    "Student PhoneNo": {
+      "nonempty": 6756,
+      "unique": 6730
+    },
+    "EWS": {
+      "nonempty": 6760,
+      "unique": 2
+    },
+    "Status": {
+      "nonempty": 6760,
+      "unique": 2
+    },
+    "Round": {
+      "nonempty": 1181,
+      "unique": 7
+    },
+    "Total Amount": {
+      "nonempty": 6614,
+      "unique": 155
+    },
+    "Student submitted Amount": {
+      "nonempty": 2668,
+      "unique": 185
+    },
+    "Online Application Transaciton ID": {
+      "nonempty": 6538,
+      "unique": 6414
+    },
+    "Payment Mode": {
+      "nonempty": 3715,
+      "unique": 46
+    },
+    "Payment Date": {
+      "nonempty": 5936,
+      "unique": 483
+    },
+    "Date of Birth": {
+      "nonempty": 6690,
+      "unique": 3120
+    },
+    "Student Email ID": {
+      "nonempty": 3976,
+      "unique": 3798
+    },
+    "Parents PhoneNo": {
+      "nonempty": 3566,
+      "unique": 3538
+    },
+    "Parents Email ID": {
+      "nonempty": 2358,
+      "unique": 2166
+    },
+    "Adharcard No.": {
+      "nonempty": 1174,
+      "unique": 1173
+    },
+    "Adharcard Linked Mob. NO.": {
+      "nonempty": 0,
+      "unique": 0
+    },
+    "Permanent Address": {
+      "nonempty": 6704,
+      "unique": 6691
+    },
+    "Present Address": {
+      "nonempty": 3357,
+      "unique": 3261
+    },
+    "Religion": {
+      "nonempty": 6760,
+      "unique": 7
+    },
+    "DTE Fee": {
+      "nonempty": 4534,
+      "unique": 4
+    },
+    "MPOnline Password": {
+      "nonempty": 2896,
+      "unique": 2465
+    },
+    "Ofline Admission Category": {
+      "nonempty": 0,
+      "unique": 0
+    },
+    "Admission Year": {
+      "nonempty": 6760,
+      "unique": 6
+    },
+    "Remarks": {
+      "nonempty": 434,
+      "unique": 11
+    },
+    "fee stru": {
+      "nonempty": 6760,
+      "unique": 15
+    },
+    "JUL-DEC20": {
+      "nonempty": 6760,
+      "unique": 3
+    },
+    "JAN-JUN21": {
+      "nonempty": 6760,
+      "unique": 3
+    },
+    "JUL-DEC21": {
+      "nonempty": 6760,
+      "unique": 5
+    },
+    "JAN-JUN22": {
+      "nonempty": 6760,
+      "unique": 3
+    },
+    "JUL-DEC22": {
+      "nonempty": 6760,
+      "unique": 5
+    },
+    "JAN-JUN23": {
+      "nonempty": 6760,
+      "unique": 3
+    },
+    "JUL-DEC23": {
+      "nonempty": 6760,
+      "unique": 6
+    },
+    "JAN-JUN24": {
+      "nonempty": 6760,
+      "unique": 8
+    },
+    "JUL-DEC24": {
+      "nonempty": 6760,
+      "unique": 9
+    },
+    "JAN-JUN25": {
+      "nonempty": 6760,
+      "unique": 11
+    },
+    "JUL-DEC25": {
+      "nonempty": 6760,
+      "unique": 12
+    },
+    "JAN-JUN26": {
+      "nonempty": 6760,
+      "unique": 12
+    },
+    "JUL-DEC26": {
+      "nonempty": 6760,
+      "unique": 10
+    },
+    "JAN-JUN27": {
+      "nonempty": 6760,
+      "unique": 10
+    },
+    "JUL-DEC27": {
+      "nonempty": 6760,
+      "unique": 7
+    },
+    "JAN-JUN28": {
+      "nonempty": 6760,
+      "unique": 7
+    },
+    "JUL-DEC28": {
+      "nonempty": 6760,
+      "unique": 4
+    },
+    "JAN-JUN29": {
+      "nonempty": 6760,
+      "unique": 4
+    }
+  },
+  "unique_id_dups_sample": [
+    {
+      "Sr. No.": 2069,
+      "Unique ID": 221336.0,
+      "Enrolment No.": "0801CS221027",
+      "Name": "ANSH BAIRAGI",
+      "Admission Year": "2022-23",
+      "Branch": "CSE"
+    },
+    {
+      "Sr. No.": 2097,
+      "Unique ID": 221098.0,
+      "Enrolment No.": "0801CS221056",
+      "Name": "GAURI ULLAS PRAMANIK",
+      "Admission Year": "2022-23",
+      "Branch": "CSE"
+    },
+    {
+      "Sr. No.": 2222,
+      "Unique ID": 222481.0,
+      "Enrolment No.": "0801EC221002",
+      "Name": "AAYUSH GUPTA",
+      "Admission Year": "2022-23",
+      "Branch": "EC"
+    },
+    {
+      "Sr. No.": 2380,
+      "Unique ID": 221098.0,
+      "Enrolment No.": "0801EE221038",
+      "Name": "DIVYANSH NAMDEV",
+      "Admission Year": "2022-23",
+      "Branch": "EE"
+    },
+    {
+      "Sr. No.": 2474,
+      "Unique ID": 221336.0,
+      "Enrolment No.": "0801EI221009",
+      "Name": "AJEET SAHNI",
+      "Admission Year": "2022-23",
+      "Branch": "EI"
+    },
+    {
+      "Sr. No.": 2824,
+      "Unique ID": 223887.0,
+      "Enrolment No.": "0801IT221150",
+      "Name": "ADARSH AGRAWAL",
+      "Admission Year": "2022-23",
+      "Branch": "IT"
+    },
+    {
+      "Sr. No.": 2838,
+      "Unique ID": 223887.0,
+      "Enrolment No.": "0801IT221164",
+      "Name": "SAMAKSH SHRIVASTAVA",
+      "Admission Year": "2022-23",
+      "Branch": "IT"
+    },
+    {
+      "Sr. No.": 2884,
+      "Unique ID": 222481.0,
+      "Enrolment No.": "0801ME221035",
+      "Name": "DHRUV MAC",
+      "Admission Year": "2022-23",
+      "Branch": "ME"
+    }
+  ],
+  "fee_join": {
+    "fee_mast_populated_rows": 72,
+    "fee_keys": [
+      "2017 BTECH SF&GF",
+      "2017 BTECH/BPH",
+      "2017 BTECH/BPH EW 25%",
+      "2017 BTECH/BPH EW 80%",
+      "2017 BTECH/BPH FW",
+      "2017 BTECH/BPH FW EW 80%",
+      "2017 BTECH/BPH NRI OCI FN",
+      "2017 BTECH/BPH SF EW 25%",
+      "2018 BTECH SF&GF",
+      "2018 BTECH/BPH",
+      "2018 BTECH/BPH EW 25%",
+      "2018 BTECH/BPH EW 80%",
+      "2018 BTECH/BPH FW",
+      "2018 BTECH/BPH FW EW 80%",
+      "2018 BTECH/BPH NRI OCI FN",
+      "2018 BTECH/BPH SF EW 25%",
+      "2019 BTECH SF&GF",
+      "2019 BTECH/BPH",
+      "2019 BTECH/BPH EW 25%",
+      "2019 BTECH/BPH EW 80%",
+      "2019 BTECH/BPH FW",
+      "2019 BTECH/BPH FW EW 80%",
+      "2019 BTECH/BPH NRI OCI FN",
+      "2019 BTECH/BPH SF EW 25%",
+      "2020 BTECH SF&GF",
+      "2020 BTECH/BPH",
+      "2020 BTECH/BPH EW 25%",
+      "2020 BTECH/BPH EW 80%",
+      "2020 BTECH/BPH FW",
+      "2020 BTECH/BPH FW EW 80%",
+      "2020 BTECH/BPH NRI OCI FN",
+      "2020 BTECH/BPH SF EW 25%",
+      "2021 BTECH SF&GF",
+      "2021 BTECH/BPH",
+      "2021 BTECH/BPH EW 25%",
+      "2021 BTECH/BPH EW 80%",
+      "2021 BTECH/BPH FW",
+      "2021 BTECH/BPH FW EW 80%",
+      "2021 BTECH/BPH NRI OCI FN",
+      "2021 BTECH/BPH SF EW 25%",
+      "2022 BTECH SF&GF",
+      "2022 BTECH/BPH",
+      "2022 BTECH/BPH EW 25%",
+      "2022 BTECH/BPH EW 80%",
+      "2022 BTECH/BPH FW",
+      "2022 BTECH/BPH FW EW 80%",
+      "2022 BTECH/BPH NRI OCI FN",
+      "2022 BTECH/BPH SF EW 25%",
+      "2023 BTECH SF&GF",
+      "2023 BTECH/BPH",
+      "2023 BTECH/BPH EW 25%",
+      "2023 BTECH/BPH EW 80%",
+      "2023 BTECH/BPH FW",
+      "2023 BTECH/BPH FW EW 80%",
+      "2023 BTECH/BPH NRI OCI FN",
+      "2023 BTECH/BPH SF EW 25%",
+      "2024 BTECH SF&GF",
+      "2024 BTECH/BPH",
+      "2024 BTECH/BPH EW 25%",
+      "2024 BTECH/BPH EW 80%",
+      "2024 BTECH/BPH FW",
+      "2024 BTECH/BPH FW EW 80%",
+      "2024 BTECH/BPH NRI OCI FN",
+      "2024 BTECH/BPH SF EW 25%",
+      "2025 BTECH SF&GF",
+      "2025 BTECH/BPH",
+      "2025 BTECH/BPH EW 25%",
+      "2025 BTECH/BPH EW 80%",
+      "2025 BTECH/BPH FW",
+      "2025 BTECH/BPH FW EW 80%",
+      "2025 BTECH/BPH NRI OCI FN",
+      "2025 BTECH/BPH SF EW 25%"
+    ],
+    "data_fee_stru_nunique": 15,
+    "in_data_not_mast": [],
+    "in_mast_not_data": [
+      "2017 BTECH SF&GF",
+      "2017 BTECH/BPH",
+      "2017 BTECH/BPH EW 25%",
+      "2017 BTECH/BPH EW 80%",
+      "2017 BTECH/BPH FW",
+      "2017 BTECH/BPH FW EW 80%",
+      "2017 BTECH/BPH NRI OCI FN",
+      "2017 BTECH/BPH SF EW 25%",
+      "2018 BTECH SF&GF",
+      "2018 BTECH/BPH",
+      "2018 BTECH/BPH EW 25%",
+      "2018 BTECH/BPH EW 80%",
+      "2018 BTECH/BPH FW",
+      "2018 BTECH/BPH FW EW 80%",
+      "2018 BTECH/BPH NRI OCI FN",
+      "2018 BTECH/BPH SF EW 25%",
+      "2019 BTECH SF&GF",
+      "2019 BTECH/BPH",
+      "2019 BTECH/BPH EW 25%",
+      "2019 BTECH/BPH EW 80%",
+      "2019 BTECH/BPH FW",
+      "2019 BTECH/BPH FW EW 80%",
+      "2019 BTECH/BPH NRI OCI FN",
+      "2019 BTECH/BPH SF EW 25%",
+      "2020 BTECH/BPH EW 25%",
+      "2020 BTECH/BPH EW 80%",
+      "2020 BTECH/BPH FW",
+      "2020 BTECH/BPH FW EW 80%",
+      "2020 BTECH/BPH NRI OCI FN",
+      "2020 BTECH/BPH SF EW 25%",
+      "2021 BTECH/BPH EW 25%",
+      "2021 BTECH/BPH EW 80%",
+      "2021 BTECH/BPH FW",
+      "2021 BTECH/BPH FW EW 80%",
+      "2021 BTECH/BPH NRI OCI FN",
+      "2021 BTECH/BPH SF EW 25%",
+      "2022 BTECH/BPH EW 25%",
+      "2022 BTECH/BPH EW 80%",
+      "2022 BTECH/BPH FW",
+      "2022 BTECH/BPH FW EW 80%",
+      "2022 BTECH/BPH NRI OCI FN",
+      "2022 BTECH/BPH SF EW 25%",
+      "2023 BTECH/BPH EW 25%",
+      "2023 BTECH/BPH EW 80%",
+      "2023 BTECH/BPH FW EW 80%",
+      "2023 BTECH/BPH NRI OCI FN",
+      "2023 BTECH/BPH SF EW 25%",
+      "2024 BTECH/BPH EW 25%",
+      "2024 BTECH/BPH EW 80%",
+      "2024 BTECH/BPH FW EW 80%",
+      "2024 BTECH/BPH NRI OCI FN",
+      "2024 BTECH/BPH SF EW 25%",
+      "2025 BTECH/BPH EW 25%",
+      "2025 BTECH/BPH EW 80%",
+      "2025 BTECH/BPH FW EW 80%",
+      "2025 BTECH/BPH NRI OCI FN",
+      "2025 BTECH/BPH SF EW 25%"
+    ],
+    "matched": [
+      "2020 BTECH SF&GF",
+      "2020 BTECH/BPH",
+      "2021 BTECH SF&GF",
+      "2021 BTECH/BPH",
+      "2022 BTECH SF&GF",
+      "2022 BTECH/BPH",
+      "2023 BTECH SF&GF",
+      "2023 BTECH/BPH",
+      "2023 BTECH/BPH FW",
+      "2024 BTECH SF&GF",
+      "2024 BTECH/BPH",
+      "2024 BTECH/BPH FW",
+      "2025 BTECH SF&GF",
+      "2025 BTECH/BPH",
+      "2025 BTECH/BPH FW"
+    ]
+  },
+  "sums": {
+    "Total Amount": {
+      "sum": 302546063.0,
+      "nonempty": 4857,
+      "min": 1400.0,
+      "max": 231175.0
+    },
+    "Student submitted Amount": {
+      "sum": 93060900.0,
+      "nonempty": 1526,
+      "min": 10000.0,
+      "max": 149600.0
+    },
+    "DTE Fee": {
+      "sum": 6209000.0,
+      "nonempty": 4534,
+      "min": 0.0,
+      "max": 75000.0
+    },
+    "JUL-DEC20": {
+      "sum": 53237100.0,
+      "nonempty": 6760,
+      "min": 0.0,
+      "max": 66900.0
+    },
+    "JAN-JUN21": {
+      "sum": 46284350.0,
+      "nonempty": 6760,
+      "min": 0.0,
+      "max": 59650.0
+    },
+    "JUL-DEC21": {
+      "sum": 98368550.0,
+      "nonempty": 6760,
+      "min": 0.0,
+      "max": 66900.0
+    },
+    "JAN-JUN22": {
+      "sum": 91568050.0,
+      "nonempty": 6760,
+      "min": 0.0,
+      "max": 59650.0
+    },
+    "JUL-DEC22": {
+      "sum": 154859250.0,
+      "nonempty": 6760,
+      "min": 0.0,
+      "max": 66900.0
+    },
+    "JAN-JUN23": {
+      "sum": 146536250.0,
+      "nonempty": 6760,
+      "min": 0.0,
+      "max": 59650.0
+    },
+    "JUL-DEC23": {
+      "sum": 219999750.0,
+      "nonempty": 6760,
+      "min": 0.0,
+      "max": 70650.0
+    },
+    "JAN-JUN24": {
+      "sum": 211488100.0,
+      "nonempty": 6760,
+      "min": 0.0,
+      "max": 63400.0
+    },
+    "JUL-DEC24": {
+      "sum": 248910450.0,
+      "nonempty": 6760,
+      "min": 0.0,
+      "max": 78925.0
+    },
+    "JAN-JUN25": {
+      "sum": 240341650.0,
+      "nonempty": 6760,
+      "min": 0.0,
+      "max": 71675.0
+    },
+    "JUL-DEC25": {
+      "sum": 323926325.0,
+      "nonempty": 6760,
+      "min": 0.0,
+      "max": 122175.0
+    },
+    "JAN-JUN26": {
+      "sum": 321997275.0,
+      "nonempty": 6760,
+      "min": 0.0,
+      "max": 119925.0
+    },
+    "JUL-DEC26": {
+      "sum": 266282875.0,
+      "nonempty": 6760,
+      "min": 0.0,
+      "max": 119925.0
+    },
+    "JAN-JUN27": {
+      "sum": 267101875.0,
+      "nonempty": 6760,
+      "min": 0.0,
+      "max": 119925.0
+    },
+    "JUL-DEC27": {
+      "sum": 201954375.0,
+      "nonempty": 6760,
+      "min": 0.0,
+      "max": 119925.0
+    },
+    "JAN-JUN28": {
+      "sum": 202777275.0,
+      "nonempty": 6760,
+      "min": 0.0,
+      "max": 119925.0
+    },
+    "JUL-DEC28": {
+      "sum": 126802825.0,
+      "nonempty": 6760,
+      "min": 0.0,
+      "max": 119925.0
+    },
+    "JAN-JUN29": {
+      "sum": 127575675.0,
+      "nonempty": 6760,
+      "min": 0.0,
+      "max": 120575.0
+    }
+  },
+  "year_sem_rows": 568,
+  "year_sem_unique": 568,
+  "sem_codes": [
+    "BTBP1",
+    "BTBP2",
+    "BTBP3",
+    "BTBP4",
+    "BTBP5",
+    "BTBP6",
+    "BTBP7",
+    "BTBP8",
+    "BTBPEW251",
+    "BTBPEW252",
+    "BTBPEW253",
+    "BTBPEW254",
+    "BTBPEW255",
+    "BTBPEW256",
+    "BTBPEW257",
+    "BTBPEW258",
+    "BTBPEW801",
+    "BTBPEW802",
+    "BTBPEW803",
+    "BTBPEW804",
+    "BTBPEW805",
+    "BTBPEW806",
+    "BTBPEW807",
+    "BTBPEW808",
+    "BTBPEWSF251",
+    "BTBPEWSF252",
+    "BTBPEWSF253",
+    "BTBPEWSF254",
+    "BTBPEWSF255",
+    "BTBPEWSF256",
+    "BTBPEWSF257",
+    "BTBPEWSF258",
+    "BTBPEWSF801",
+    "BTBPEWSF802",
+    "BTBPEWSF803",
+    "BTBPEWSF804",
+    "BTBPEWSF805",
+    "BTBPEWSF806",
+    "BTBPEWSF807",
+    "BTBPEWSF808",
+    "BTBPFW1",
+    "BTBPFW2",
+    "BTBPFW3",
+    "BTBPFW4",
+    "BTBPFW5",
+    "BTBPFW6",
+    "BTBPFW7",
+    "BTBPFW8",
+    "BTBPNRIOCIFN1",
+    "BTBPNRIOCIFN2",
+    "BTBPNRIOCIFN3",
+    "BTBPNRIOCIFN4",
+    "BTBPNRIOCIFN5",
+    "BTBPNRIOCIFN6",
+    "BTBPNRIOCIFN7",
+    "BTBPNRIOCIFN8",
+    "BTSFGF1",
+    "BTSFGF2",
+    "BTSFGF3",
+    "BTSFGF4",
+    "BTSFGF5",
+    "BTSFGF6",
+    "BTSFGF7",
+    "BTSFGF8"
+  ]
+}

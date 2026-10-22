@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SGSITS Student Management System — Complete Project Guide</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #24292e;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    background-color: #fafbfc;
+  }
+  .card {
+    background: #ffffff;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    padding: 32px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+  h1 { color: #1a56db; border-bottom: 2px solid #eaecef; padding-bottom: 12px; margin-top: 0; }
+  h2 { color: #2e384d; border-bottom: 1px solid #eaecef; padding-bottom: 8px; margin-top: 28px; }
+  h3 { color: #374151; }
+  code {
+    background-color: #f3f4f6;
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-family: Consolas, "Liberation Mono", Menlo, monospace;
+    font-size: 0.9em;
+    color: #b91c1c;
+  }
+  pre {
+    background-color: #1f2937;
+    color: #f9fafb;
+    padding: 16px;
+    border-radius: 6px;
+    overflow-x: auto;
+    font-family: Consolas, monospace;
+    font-size: 0.9em;
+  }
+  pre code {
+    background: none;
+    color: inherit;
+    padding: 0;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 16px 0;
+  }
+  th, td {
+    border: 1px solid #e5e7eb;
+    padding: 10px 14px;
+    text-align: left;
+  }
+  th {
+    background-color: #f9fafb;
+    font-weight: 600;
+  }
+  .badge {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #10b981;
+    border-radius: 12px;
+  }
+  .info-box {
+    background-color: #eff6ff;
+    border-left: 4px solid #3b82f6;
+    padding: 12px 16px;
+    margin: 16px 0;
+    border-radius: 0 6px 6px 0;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>SGSITS Student Management System — Complete Project Guide</h1>
+  
+  <div class="info-box">
+    <strong>Project Architecture:</strong> Excel (<code>UG.xlsm</code>) ➡️ MySQL Relational DB ➡️ Python FastAPI Backend ➡️ Jetpack Compose Android App.
+  </div>
+
+  <h2>1. File Locations on Your Laptop</h2>
+  <table>
+    <tr><th>Item</th><th>Location</th><th>Description</th></tr>
+    <tr><td><strong>Complete Project ZIP</strong></td><td><code>C:\Users\sagar7987\Downloads\StudentManagementApp_Complete_Project.zip</code></td><td>Ready to submit/share (~7.75 MB)</td></tr>
+    <tr><td><strong>Project Guide (HTML)</strong></td><td><code>C:\Users\sagar7987\Downloads\PROJECT_GUIDE.html</code></td><td>Formatted document (open in any browser)</td></tr>
+    <tr><td><strong>Project Guide (Markdown)</strong></td><td><code>C:\Users\sagar7987\Downloads\PROJECT_GUIDE.md</code></td><td>Standard Markdown documentation</td></tr>
+    <tr><td><strong>Active Working Folder</strong></td><td><code>C:\Users\sagar7987\Downloads\APP</code></td><td>Live development source code</td></tr>
+  </table>
+
+  <h2>2. Project Directory Structure</h2>
+  <pre><code>StudentManagementApp_Complete_Project/
+├── BACKEND/                         # Python FastAPI Backend
+│   ├── app/
+│   │   ├── main.py                  # API Entry point & CORS middleware
+│   │   ├── config.py                # Database configuration & URL encoding
+│   │   ├── database.py              # SQLAlchemy engine & session pool
+│   │   ├── models.py                # ORM models (student, admission, contact, payment, etc.)
+│   │   ├── schemas.py               # Pydantic validation (supports both snake_case & camelCase)
+│   │   ├── auth.py                  # JWT authentication module
+│   │   ├── exceptions.py            # Global error handling & friendly messages
+│   │   ├── routers/                 # API endpoints (students, payments, reports, dashboard, etc.)
+│   │   └── services/                # Excel logic & query service
+│   ├── tests/
+│   │   └── test_api.py              # 38 Automated tests (All Passing)
+│   ├── .env                         # Configured environment variables (Port 3307, DB credentials)
+│   ├── requirements.txt
+│   └── README.md
+│
+├── DATABASE/                        # MySQL Database & ETL Pipeline
+│   ├── database/
+│   │   ├── sql/mysql/               # Schema, views, indexes, stored procedures
+│   │   ├── data/                    # excel_app.sqlite (6,760 students) & dumps
+│   │   └── etl/migrate_to_mysql.py  # PyMySQL data loader
+│
+└── UI/                              # Kotlin Android App
+    └── StudentManagementApp2/
+        ├── app/src/main/
+        │   ├── java/com/example/studentmanagementapp/
+        │   │   ├── MainActivity.kt        # Jetpack Compose navigation & backend sync
+        │   │   ├── ApiClient.kt           # HTTP client connecting to FastAPI backend
+        │   │   ├── StudentStorage.kt      # Local cache + remote sync coordinator
+        │   │   └── (All Screens)          # Student, Search, Admission, Fee, Reports UI
+        │   └── AndroidManifest.xml        # Includes INTERNET & Cleartext permissions
+        ├── build.gradle.kts
+        └── settings.gradle.kts</code></pre>
+
+  <h2>3. Key Completed Milestones</h2>
+  <ul>
+    <li><span class="badge">DONE</span> <strong>MySQL Database Loaded:</strong> 6,760 students, 6,760 admissions, 6,760 payments, 1,21,680 semester fee records.</li>
+    <li><span class="badge">DONE</span> <strong>FastAPI Backend Running:</strong> Live at <code>http://127.0.0.1:8000</code> with interactive Swagger documentation at <code>/docs</code>.</li>
+    <li><span class="badge">DONE</span> <strong>38/38 Unit Tests Passed:</strong> All routes, validations, and logic verified.</li>
+    <li><span class="badge">DONE</span> <strong>Android App Connected:</strong> <code>ApiClient.kt</code> and <code>StudentStorage.kt</code> sync live records without altering any existing UI design.</li>
+  </ul>
+
+  <h2>4. How to Run for Demo / Evaluation</h2>
+  <h3>Step 1: Start the Backend (if not already running)</h3>
+  <pre><code>cd C:\Users\sagar7987\Downloads\APP\BACKEND
+.venv\Scripts\activate
+uvicorn app.main:app --host 0.0.0.0 --port 8000</code></pre>
+  <p>Test in browser: <a href="http://127.0.0.1:8000/docs" target="_blank">http://127.0.0.1:8000/docs</a></p>
+
+  <h3>Step 2: Run the Android App</h3>
+  <ol>
+    <li>Open <strong>Android Studio</strong>.</li>
+    <li>Open project: <code>C:\Users\sagar7987\Downloads\APP\UI\StudentManagementApp2</code>.</li>
+    <li>Run on Emulator or connected phone (Click <strong>Run ▶️</strong>).</li>
+  </ol>
+</div>
+</body>
+</html>
